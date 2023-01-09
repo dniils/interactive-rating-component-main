@@ -1,0 +1,56 @@
+@import "variables";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Overpass:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img,
+button {
+  user-select: none;
+}
+
+body {
+  background-color: var(--blue-300);
+}
+
+.rate-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rate {
+  width: 500px;
+  height: 500px;
+  background-color: var(--blue-200);
+  border-radius: 25px;
+  padding: 30px 50px;
+}
+
+.attribution {
+  font-size: var(--fs-xs);
+  text-align: center;
+  color: var(--grey-200);
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+
+  a {
+    color: var(--orange);
+  }
+}
